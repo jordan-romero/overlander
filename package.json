@@ -17,7 +17,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:sass": "node-sass sass/main.scss src/index.css -w"
+    
+
+    "watch:sass": "node-sass sass/main.scss src/index.css -w",
+    "compile:sass": "node-sass sass/main.scss src/index.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/index.comp.css -o css/index.prefix.css",
+    "compress:css": "node-sass src/index.prefix.css src/index.css --output-index compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "eslintConfig": {
     "extends": [
