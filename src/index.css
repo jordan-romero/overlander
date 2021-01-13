@@ -75,18 +75,20 @@ body {
     color: #ebebeb;
     font-weight: 300;
     font-family: "Prompt", sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
     letter-spacing: .75rem;
+    text-transform: uppercase;
     position: absolute;
-    top: 40rem;
+    top: 44rem;
     left: 10rem;
     animation: slide-in-blurred-tl 1.2s ease-in-out; }
   .header__subtext {
     position: absolute;
-    top: 53rem;
+    top: 54rem;
     left: 50rem;
     font-size: 3.5rem;
     letter-spacing: .25rem;
+    text-transform: uppercase;
     animation: slide-in-blurred-right 1.2s ease-in-out; }
 
 .home {
