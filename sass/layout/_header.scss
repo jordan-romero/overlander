@@ -24,6 +24,8 @@
             position: absolute;
             top: 40rem; 
             left: 10rem;
+
+            animation: slide-in-blurred-tl 1.2s ease-in-out;
         }
 
         &__subtext{
@@ -32,5 +34,7 @@
             left: 50rem; 
             font-size: 3.5rem;
             letter-spacing: .25rem;
+
+            animation: slide-in-blurred-right 1.2s ease-in-out; 
         }
 }
