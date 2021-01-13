@@ -35,6 +35,11 @@ body {
     position: absolute;
     top: 40rem;
     left: 10rem; }
+  .header__subtext {
+    position: absolute;
+    top: 14rem;
+    left: 36rem;
+    font-size: 3.5rem; }
 
 .home {
   background-color: #f7f7f7; }
