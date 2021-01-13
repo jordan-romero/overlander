@@ -21,7 +21,13 @@ body {
 
 .header {
   height: 90vh;
-  background-image: linear-gradient(to left bottom, rgba(222, 114, 84, 0.4), rgba(206, 75, 39, 0.4)), url(./imgs/header.jpg); }
+  background-image: linear-gradient(to left bottom, rgba(222, 114, 84, 0.6), rgba(206, 75, 39, 0.6)), url(./imgs/header.jpg);
+  background-size: cover;
+  position: relative; }
+  .header__group {
+    position: absolute;
+    top: 50rem;
+    left: 40rem; }
 
 .home {
   background-color: #f7f7f7; }
