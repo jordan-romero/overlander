@@ -35,11 +35,21 @@ body {
     position: absolute;
     top: 40rem;
     left: 10rem; }
+  .header__main {
+    color: #ebebeb;
+    font-weight: 300;
+    font-family: "Prompt", sans-serif;
+    font-size: 10rem;
+    letter-spacing: .75rem;
+    position: absolute;
+    top: 40rem;
+    left: 10rem; }
   .header__subtext {
     position: absolute;
-    top: 14rem;
-    left: 36rem;
-    font-size: 3.5rem; }
+    top: 53rem;
+    left: 50rem;
+    font-size: 3.5rem;
+    letter-spacing: .25rem; }
 
 .home {
   background-color: #f7f7f7; }
