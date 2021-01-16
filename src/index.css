@@ -70,6 +70,10 @@ body {
     font-size: 5rem;
     font-weight: 300;
     letter-spacing: .5rem; }
+  .definition__quote {
+    font-family: "Bodoni Moda", serif;
+    font-size: 2rem;
+    font-weight: 500; }
 
 .header {
   height: 90vh;
