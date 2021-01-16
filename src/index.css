@@ -64,16 +64,26 @@ body {
 
 .definition {
   height: 80vh;
-  margin-top: 20rem; }
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
   .definition__title {
     font-family: "Prompt", sans-serif;
-    font-size: 5rem;
+    font-size: 10rem;
     font-weight: 300;
-    letter-spacing: .5rem; }
+    letter-spacing: .5rem;
+    color: #333;
+    grid-column: 2 / 4;
+    justify-self: center;
+    align-self: end; }
   .definition__quote {
     font-family: "Bodoni Moda", serif;
     font-size: 2rem;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #999;
+    grid-column: 1 / 4;
+    padding: 4rem; }
 
 .header {
   height: 90vh;
