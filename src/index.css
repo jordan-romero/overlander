@@ -62,6 +62,15 @@ body {
   font-size: 10rem;
   letter-spacing: .5rem; }
 
+.definition {
+  height: 80vh;
+  margin-top: 20rem; }
+  .definition__title {
+    font-family: "Prompt", sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    letter-spacing: .5rem; }
+
 .header {
   height: 90vh;
   background-image: linear-gradient(to left bottom, rgba(222, 114, 84, 0.6), rgba(206, 75, 39, 0.6)), url(./imgs/header.jpg);

@@ -1,0 +1,11 @@
+.definition{
+    height: 80vh;
+    margin-top: 20rem;
+
+    &__title{
+        font-family: $font-header;
+        font-size: 5rem;
+        font-weight: 300;
+        letter-spacing: .5rem; 
+    }
+}
