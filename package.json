@@ -9,6 +9,7 @@
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
@@ -17,8 +18,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    
-
     "watch:sass": "node-sass sass/main.scss src/index.css -w",
     "compile:sass": "node-sass sass/main.scss src/index.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/index.comp.css -o css/index.prefix.css",
