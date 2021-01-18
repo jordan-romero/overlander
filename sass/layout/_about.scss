@@ -2,7 +2,14 @@
     height: 80vh;
     margin-bottom: 15rem;
     background-image: linear-gradient(rgba($color-primary-light, .9), rgba($color-primary-dark-2, .9));
-    padding: 4rem; 
+    
+    position: relative;
+
+    &__content {
+        position: absolute;
+        top: 8rem;
+        padding: 4rem;  
+    }
 
     &__curve{
         width: 50%; height: auto;
@@ -12,9 +19,11 @@
         border-radius: 50%;
         -webkit-shape-outside:circle();
         shape-outside:circle();
+
     }
 
     p {
         font-size: 2.75rem;
+        color: $color-secondary-dark-2; 
     }
 }

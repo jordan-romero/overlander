@@ -72,13 +72,18 @@ body {
   font-weight: 800;
   font-size: 3rem;
   line-height: 1rem;
+  letter-spacing: .17rem;
   color: #ebebeb; }
 
 .about {
   height: 80vh;
   margin-bottom: 15rem;
   background-image: linear-gradient(rgba(222, 114, 84, 0.9), rgba(206, 75, 39, 0.9));
-  padding: 4rem; }
+  position: relative; }
+  .about__content {
+    position: absolute;
+    top: 8rem;
+    padding: 4rem; }
   .about__curve {
     width: 50%;
     height: auto;
@@ -89,7 +94,8 @@ body {
     -webkit-shape-outside: circle();
     shape-outside: circle(); }
   .about p {
-    font-size: 2.75rem; }
+    font-size: 2.75rem;
+    color: #69747c; }
 
 .definition {
   height: 80vh;
