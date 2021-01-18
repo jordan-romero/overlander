@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 import Truck from '../imgs/truckshot.jpeg'
+import Tips from '../imgs/tips.jpg'
 
 const Nav = () => {
     return (
@@ -12,10 +13,10 @@ const Nav = () => {
                     <p>The top place for outfitting your vehicles and campers</p>
                     <img src={Truck} alt='photo of truck'/>
                 </NavLink>
-                <NavLink className='nav__link' to="/reviews">
+                <NavLink className='nav__link' to="/tips">
                     <h2>Tips and Tricks</h2>
                     <p>Exclusive information & guides for travel and maintenance</p>
-                    <img src={Truck} alt='photo of truck'/>
+                    <img src={Tips} alt='photo of glenn and dog'/>
                 </NavLink>
             </nav>
         </Router>
