@@ -1,16 +1,19 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 import Truck from '../imgs/truckshot.jpeg'
 
 const Nav = () => {
     return (
-        <nav className='nav'>
-            <Navlink className='nav__link' to="/reviews">
-                <h2>Gear Reviews</h2>
-                <p>The top place for outfitting your vehicles and campers</p>
-                <img src={Truck} alt='photo of truck'/>
-            </Navlink>
-        </nav>
+        <Router>
+            <nav className='nav'>
+                <NavLink className='nav__link' to="/reviews">
+                    <h2>Gear Reviews</h2>
+                    <p>The top place for outfitting your vehicles and campers</p>
+                    <img src={Truck} alt='photo of truck'/>
+                </NavLink>
+            </nav>
+        </Router>
     )
 }
 
