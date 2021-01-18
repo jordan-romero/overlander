@@ -14,5 +14,18 @@ body {
 }
 
 .heading-secondary {
-    
+    font-size: 4rem;
+    font-family: $font-header;
+    letter-spacing: .5rem;
+    color: $color-white;
+}
+
+
+
+
+.emphasis {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: $color-white;
 }
