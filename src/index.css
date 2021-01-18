@@ -64,7 +64,9 @@ body {
 
 .about {
   height: 80vh;
-  margin-bottom: 15rem; }
+  margin-bottom: 15rem;
+  background-image: linear-gradient(rgba(222, 114, 84, 0.9), rgba(206, 75, 39, 0.9));
+  padding: 4rem; }
   .about__curve {
     width: 33%;
     height: auto;
