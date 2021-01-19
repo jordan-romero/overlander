@@ -18,6 +18,7 @@ const Nav = () => {
                     <img src={Truck} alt='truck' className='nav__img'/>
                 </NavLink>
             </div>
+            <div className='nav__card'>
                 <NavLink className='nav__link' to="/tips">
                     <div className='nav__content'>
                         <h2 className='heading-tertiary'>Tips and Tricks</h2>
@@ -25,6 +26,8 @@ const Nav = () => {
                     </div>
                     <img src={Tips} alt='glenn and dog' className='nav__img'/>
                 </NavLink>
+            </div>
+            <div className='nav__card'>
                 <NavLink className='nav__link' to="/recommendations">
                     <div className='nav__content'>
                         <h2 className='heading-tertiary'>Camping Recs</h2>
@@ -32,6 +35,7 @@ const Nav = () => {
                     </div>
                     <img src={Camper} alt='camper' className='nav__img'/>
                 </NavLink>
+            </div>
             </nav>
         </Router>
     )
