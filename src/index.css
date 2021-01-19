@@ -151,7 +151,14 @@ body {
     animation: slide-in-blurred-right 1.2s ease-in-out; }
 
 .nav {
-  height: 75vh; }
+  height: 75vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  .nav__link {
+    text-decoration: none; }
+  .nav__img {
+    height: 16rem;
+    width: 24rem; }
 
 .home {
   background-color: #f7f7f7; }

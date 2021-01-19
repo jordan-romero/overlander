@@ -1,7 +1,18 @@
 .nav {
     height: 75vh; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
 
     &__link{
-        
+        text-decoration: none;
+    }
+
+    &__text{
+
+    }
+
+    &__img{
+        height: 16rem; 
+        width: 24rem; 
     }
 }
