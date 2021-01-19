@@ -150,5 +150,8 @@ body {
     text-transform: uppercase;
     animation: slide-in-blurred-right 1.2s ease-in-out; }
 
+.nav {
+  height: 75vh; }
+
 .home {
   background-color: #f7f7f7; }
