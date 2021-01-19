@@ -159,7 +159,11 @@ body {
   gap: 1rem;
   padding: 3rem; }
   .nav__card:hover {
-    transform: translateY(-1.5rem) scale(1.03); }
+    transform: translateY(-1.5rem) scale(1.03);
+    box-shadow: 0 1.5rem 4rem rgba(14, 17, 17, 0.35); }
+  .nav__card:active {
+    box-shadow: 0 1rem 1rem rgba(14, 17, 17, 0.15);
+    transform: translateY(0); }
   .nav__link {
     text-decoration: none;
     display: grid;
