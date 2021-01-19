@@ -1,17 +1,21 @@
 .nav {
     height: 75vh; 
     display: grid; 
-    grid-template-columns: repeat(3, minmax(26.5rem, 1fr));
+    grid-template-columns: repeat(3, minmax(15vw, 1fr));
     justify-content: center;
     align-content: center;
-    gap: 1.5rem; 
+    gap: 1rem; 
+    padding: 3rem;
 
     &__link{
         text-decoration: none;
         display: grid; 
         grid-template-rows: repeat(2, .75fr);
         border-radius: 3px;
-        color: $color-gray-dark-2
+        color: $color-gray-dark-2;
+        border: solid 1px $color-gray-dark-1;
+        box-shadow: 0 3rem 4rem, 0.5;
+        
     }
 
     &__content{
@@ -21,7 +25,11 @@
 
     &__img{
         height: 16rem; 
-        width: 26.5rem;
+        width: 24.9rem;
         grid-row: 2 / 3;
+        object-fit: cover;
+        overflow: hidden;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 }
