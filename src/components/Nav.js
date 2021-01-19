@@ -17,13 +17,17 @@ const Nav = () => {
                     <img src={Truck} alt='truck' className='nav__img'/>
                 </NavLink>
                 <NavLink className='nav__link' to="/tips">
-                    <h2 className='heading-tertiary'>Tips and Tricks</h2>
-                    <p className='nav__text'>Exclusive information & guides for travel and maintenance</p>
+                    <div className='nav__content'>
+                        <h2 className='heading-tertiary'>Tips and Tricks</h2>
+                        <p className='nav__text'>Exclusive information & guides for travel and maintenance</p>
+                    </div>
                     <img src={Tips} alt='glenn and dog' className='nav__img'/>
                 </NavLink>
                 <NavLink className='nav__link' to="/recommendations">
-                    <h2 className='heading-tertiary'>Camping Recs</h2>
-                    <p className='nav__text'>Recommendations for interesting and unique places to overland</p>
+                    <div className='nav__content'>
+                        <h2 className='heading-tertiary'>Camping Recs</h2>
+                        <p className='nav__text'>Recommendations for interesting and unique places to overland</p>
+                    </div>
                     <img src={Camper} alt='camper' className='nav__img'/>
                 </NavLink>
             </nav>
