@@ -9,6 +9,7 @@ const Nav = () => {
     return (
         <Router>
             <nav className='nav'>
+            <div className='nav__card'>
                 <NavLink className='nav__link' to="/reviews">
                     <div className='nav__content'>
                         <h2 className='heading-tertiary'>Gear Reviews</h2>
@@ -16,6 +17,7 @@ const Nav = () => {
                     </div>
                     <img src={Truck} alt='truck' className='nav__img'/>
                 </NavLink>
+            </div>
                 <NavLink className='nav__link' to="/tips">
                     <div className='nav__content'>
                         <h2 className='heading-tertiary'>Tips and Tricks</h2>

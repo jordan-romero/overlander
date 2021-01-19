@@ -7,6 +7,12 @@
     gap: 1rem; 
     padding: 3rem;
 
+    &__card {
+        &:hover {
+            transform: translateY(-1.5rem) scale(1.03);
+        }
+    }
+
     &__link{
         text-decoration: none;
         display: grid; 
@@ -16,9 +22,7 @@
         border: solid .5px $color-gray-dark-1;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .25)
 
-        &:hover {
-            transform: translateY(-1.5rem) scale(1.03);
-        }
+        
         
     }
 

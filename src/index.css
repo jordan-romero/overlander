@@ -158,6 +158,8 @@ body {
   align-content: center;
   gap: 1rem;
   padding: 3rem; }
+  .nav__card:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
   .nav__link {
     text-decoration: none;
     display: grid;
@@ -165,9 +167,7 @@ body {
     border-radius: 3px;
     color: #333;
     border: solid 0.5px #999;
-    box-shadow: 0 1.5rem 4rem rgba(14, 17, 17, 0.25) .nav__link; }
-    .nav__link :hover {
-      transform: translateY(-1.5rem) scale(1.03); }
+    box-shadow: 0 1.5rem 4rem rgba(14, 17, 17, 0.25); }
   .nav__content {
     grid-row: 1 / 2;
     align-self: center; }
