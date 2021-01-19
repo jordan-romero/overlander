@@ -164,8 +164,10 @@ body {
     grid-template-rows: repeat(2, 0.75fr);
     border-radius: 3px;
     color: #333;
-    border: solid 1px #999;
-    box-shadow: 0 3rem 4rem, 0.5; }
+    border: solid 0.5px #999;
+    box-shadow: 0 1.5rem 4rem rgba(14, 17, 17, 0.25) .nav__link; }
+    .nav__link :hover {
+      transform: translateY(-1.5rem) scale(1.03); }
   .nav__content {
     grid-row: 1 / 2;
     align-self: center; }
