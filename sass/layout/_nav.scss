@@ -2,17 +2,23 @@
     height: 75vh; 
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
 
     &__link{
         text-decoration: none;
+        display: grid; 
+        grid-template-rows: repeat(2, .75fr);
     }
 
-    &__text{
-
+    &__content{
+        grid-row: 1 / 2;
+        align-self: end;
     }
 
     &__img{
         height: 16rem; 
-        width: 24rem; 
+        width: 26.5rem;
+        grid-row: 2 / 3;
     }
 }

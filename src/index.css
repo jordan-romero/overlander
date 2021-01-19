@@ -153,12 +153,20 @@ body {
 .nav {
   height: 75vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center; }
   .nav__link {
-    text-decoration: none; }
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: repeat(2, 0.75fr); }
+  .nav__content {
+    grid-row: 1 / 2;
+    align-self: end; }
   .nav__img {
     height: 16rem;
-    width: 24rem; }
+    width: 26.5rem;
+    grid-row: 2 / 3; }
 
 .home {
   background-color: #f7f7f7; }

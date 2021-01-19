@@ -10,8 +10,10 @@ const Nav = () => {
         <Router>
             <nav className='nav'>
                 <NavLink className='nav__link' to="/reviews">
-                    <h2 className='heading-tertiary'>Gear Reviews</h2>
-                    <p className='nav__text'>The top place for outfitting your vehicles and campers</p>
+                    <div className='nav__content'>
+                        <h2 className='heading-tertiary'>Gear Reviews</h2>
+                        <p className='nav__text'>The top place for outfitting your vehicles and campers</p>
+                    </div>
                     <img src={Truck} alt='truck' className='nav__img'/>
                 </NavLink>
                 <NavLink className='nav__link' to="/tips">
