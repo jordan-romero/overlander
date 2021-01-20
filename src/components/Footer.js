@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
     
             <div className='footer__subscribe'>
-            
+                <h2>Subscribe to the Newsletter</h2>
             </div>
         </section>
     )
