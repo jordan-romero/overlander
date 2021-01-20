@@ -78,6 +78,9 @@ body {
 .icon {
   width: 2rem;
   height: 2rem; }
+  .icon--footer {
+    width: 6rem;
+    height: 6rem; }
 
 .about {
   height: 80vh;
@@ -137,7 +140,10 @@ body {
     grid-column: 1 / 3;
     background-color: #727d85;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; }
 
 .header {
   height: 90vh;
