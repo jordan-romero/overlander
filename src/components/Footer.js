@@ -25,7 +25,7 @@ const Footer = () => {
     
             <div className='footer__subscribe'>
                 <h2>Subscribe to the Newsletter</h2>
-                <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
+                <MailchimpSubscribe className='footer__form' url={process.env.REACT_APP_MAILCHIMP_URL} />
             </div>
         </section>
     )
