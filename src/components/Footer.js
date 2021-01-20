@@ -7,17 +7,17 @@ const Footer = () => {
             <div className='footer__links'>
                 <a href='https://www.linkedin.com/in/jordan-t-romero/'>
                     <svg className="icon icon--footer">
-                        <use href={sprite + '#icon-linkedin'} />
-                    </svg>
-                </a>
-                <a href='https://github.com/jordles113'>
-                    <svg className="icon icon--footer">
-                        <use href={sprite + '#icon-github'} />
+                        <use href={sprite + '#icon-youtube'} />
                     </svg>
                 </a>
                 <a href='mailto: jordanromero1390@gmail.com'>
                     <svg className="icon icon--footer">
                         <use href={sprite + '#icon-mail'} />
+                    </svg>
+                </a>
+                <a href='https://github.com/jordles113'>
+                    <svg className="icon icon--footer">
+                        <use href={sprite + '#icon-facebook'} />
                     </svg>
                 </a>
             </div>

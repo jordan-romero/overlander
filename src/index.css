@@ -121,6 +121,9 @@ body {
     padding: 4rem;
     margin-top: -7rem; }
 
+.footer {
+  height: 65vh; }
+
 .header {
   height: 90vh;
   background-image: linear-gradient(to left bottom, rgba(222, 114, 84, 0.6), rgba(206, 75, 39, 0.6)), url(./imgs/header.jpg);
