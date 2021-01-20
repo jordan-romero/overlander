@@ -23,7 +23,7 @@
     &__link{
         text-decoration: none;
         display: grid; 
-        grid-template-rows: 1fr 15rem;
+        grid-template-rows: 15rem 15rem;
         grid-template-columns: repeat(3, 1fr);
         border-radius: 3px;
         color: $color-gray-dark-2;
@@ -35,6 +35,10 @@
         grid-row: 1 / 2;
         grid-column: 1 / 4;
         align-self: center;
+    }
+
+    &__text {
+       font-size: 1.23rem; 
     }
 
     &__img{ 
