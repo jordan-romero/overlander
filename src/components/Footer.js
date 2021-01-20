@@ -1,5 +1,6 @@
 import React from 'react'
 import sprite from '../imgs/sprite.svg'
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const Footer = () => {
     return (
@@ -24,6 +25,7 @@ const Footer = () => {
     
             <div className='footer__subscribe'>
                 <h2>Subscribe to the Newsletter</h2>
+                <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
             </div>
         </section>
     )
