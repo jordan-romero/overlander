@@ -75,6 +75,10 @@ body {
   letter-spacing: .17rem;
   color: #ebebeb; }
 
+.icon {
+  width: 2rem;
+  height: 2rem; }
+
 .about {
   height: 80vh;
   margin-bottom: 15rem;
