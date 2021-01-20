@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Definition from '../components/Definition'
 import About from '../components/About'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Definition />
             <About />
             <Nav />
+            <Footer />
         </div>
     )
 }
