@@ -80,7 +80,8 @@ body {
   height: 2rem; }
   .icon--footer {
     width: 6rem;
-    height: 6rem; }
+    height: 6rem;
+    fill: #ebebeb; }
 
 .about {
   height: 80vh;
