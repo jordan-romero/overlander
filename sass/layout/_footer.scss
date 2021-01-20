@@ -1,3 +1,7 @@
 .footer {
     height: 65vh; 
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 }

@@ -122,7 +122,11 @@ body {
     margin-top: -7rem; }
 
 .footer {
-  height: 65vh; }
+  height: 65vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center; }
 
 .header {
   height: 90vh;
