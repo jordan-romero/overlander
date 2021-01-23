@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Recomendations = () => {
+const Recommendations = () => {
     return (
         <div>
             HI from Recs
@@ -8,4 +8,4 @@ const Recomendations = () => {
     )
 }
 
-export default Recomendations
+export default Recommendations
