@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch, useHistory} from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 import Truck from '../imgs/truckshot.jpeg'
 import Tips from '../imgs/tips.jpg'
@@ -7,7 +6,6 @@ import Camper from '../imgs/camper.jpg'
 
 const Nav = () => {
     return (
-        <Router>
             <nav className='nav'>
             <div className='nav__card'>
                 <NavLink className='nav__link' to="/reviews">
@@ -37,7 +35,6 @@ const Nav = () => {
                 </NavLink>
             </div>
             </nav>
-        </Router>
     )
 }
 
