@@ -32,7 +32,9 @@ const Reviews = () => {
             return (
             <div className='review__card'>
                 <h1 className='review__title'> { review.title }</h1>
+                <img src={ review.image } alt={ review.title } />
                 <p className='review__synopsis'> { review.synopsis }</p>
+                <button className='btn'>Keep Reading</button>
             </div>
             )
         })}
