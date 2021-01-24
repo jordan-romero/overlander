@@ -21,16 +21,16 @@ const Reviews = () => {
     console.log(reviews)
     
     return (
-        <div>
+        <section className='review'>
         { reviews.reviews.map(review => {
             return (
-            <div>
-                <h1> { review.title }</h1>
-                <p> { review.content }</p>
+            <div className='review__card'>
+                <h1 className='review__title'> { review.title }</h1>
+                <p className='review__content'> { review.content }</p>
             </div>
             )
         })}
-        </div>
+        </section>
     )
     } 
     
