@@ -259,3 +259,10 @@ button {
 
 .home {
   background-color: #f7f7f7; }
+
+.review {
+  background-color: #f7f7f7;
+  height: 90vh; }
+  .review__img {
+    height: 30vh;
+    width: 30vw; }
