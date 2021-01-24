@@ -1,0 +1,20 @@
+.review {
+
+    display: grid; 
+    grid-template-columns: repeat(2, 30rem);
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    padding: 3rem; 
+
+    &__title{
+        grid-row: 1 / 2;
+    }
+
+    &__img{
+        height: 100%;
+        width: 100%; 
+        grid-column: 1 / 2;
+    }
+
+}

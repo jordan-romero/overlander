@@ -27,10 +27,10 @@ const Reviews = () => {
     console.log(reviews)
     
     return (
-        <section className='review'>
+        <section className='reviews'>
         { reviews.reviews.map(review => {
             return (
-            <div className='review__card'>
+            <div className='review'>
                 <h1 className='review__title'> { review.title }</h1>
                 <img className='review__img' src={ review.image } alt={ review.title } />
                 <p className='review__synopsis'> { review.synopsis }</p>

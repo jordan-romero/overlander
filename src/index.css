@@ -100,6 +100,20 @@ body {
   opacity: 0;
   transition: opacity 350ms linear; }
 
+.review {
+  display: grid;
+  grid-template-columns: repeat(2, 30rem);
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding: 3rem; }
+  .review__title {
+    grid-row: 1 / 2; }
+  .review__img {
+    height: 100%;
+    width: 100%;
+    grid-column: 1 / 2; }
+
 .about {
   height: 80vh;
   margin-bottom: 15rem;
@@ -260,9 +274,6 @@ button {
 .home {
   background-color: #f7f7f7; }
 
-.review {
+.reviews {
   background-color: #f7f7f7;
   height: 90vh; }
-  .review__img {
-    height: 30vh;
-    width: 30vw; }
